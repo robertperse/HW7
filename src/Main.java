@@ -73,7 +73,6 @@ public class Main {
             dayNumber = dayNumber + 7;
         } while (dayNumber < 31);
 
-
         int currentYear = 2024;
         int startYear = currentYear - 200;
         int endYear = currentYear + 100;
