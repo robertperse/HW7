@@ -8,7 +8,6 @@ public class Main {
             i++;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
-        System.out.println();
 
         i = 1;
         while (i <= 10) {
@@ -21,7 +20,6 @@ public class Main {
             System.out.print(i + " ");
         }
         System.out.println();
-        System.out.println();
 
         int population = 12_000_000;
         int birthRate = 17;
@@ -32,7 +30,6 @@ public class Main {
             year++;
             System.out.println("Год " + year + ", численность населения составляет " + population);
         }
-        System.out.println();
 
         money = 15000;
         total = 0;
@@ -42,7 +39,6 @@ public class Main {
             i++;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
-        System.out.println();
 
         money = 15000;
         total = 0;
@@ -56,7 +52,6 @@ public class Main {
             }
         }
         System.out.println(total);
-        System.out.println();
 
         money = 15000;
         total = 0;
@@ -71,14 +66,13 @@ public class Main {
                 }
             }
         }
-        System.out.println();
 
         int dayNumber = 5;
         do {
             System.out.println("Сегодня пятница, " + dayNumber + "-е число. Необходимо подготовить отчет");
             dayNumber = dayNumber + 7;
         } while (dayNumber < 31);
-        System.out.println();
+
 
         int currentYear = 2024;
         int startYear = currentYear - 200;
